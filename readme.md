@@ -1,3 +1,11 @@
+*Create Git Repository setup (github.com/new)
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/shaik27/nodejsProject.git
+git branch -M main
+git push -u origin main
+
 *steps to create this project
 -> npm init (to initialize the project which generates the package.json file)
 
@@ -6,6 +14,7 @@
 
 *To ignore the particular files to push into the repository 
 -> Create .gitignore file
+
 
 
 -> https://www.npmjs.com/package/mongodb    refer this site for code

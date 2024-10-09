@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.use(('/test'),(req,res)=>{
-    res.send('hello world')
+    res.send('hello world testing')
 })
 
 app.listen(3002, ()=>{
