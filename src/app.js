@@ -59,7 +59,7 @@ app.delete('/user', async (req, res) => {
     const userId = req.body.userId
     try {
         const user = await User.findByIdAndDelete(userId)
-        if(user){
+        if (user) {
             res.send('user deleted successfully ' + user)
         }
         else {
